@@ -5,7 +5,7 @@ export const FooterItem = [
     {
         title: 'Explore',
         child_1: {
-            title: 'About Teaser Name',
+            title: 'About WNCH',
             href: '/about',
         },
         child_2: {
@@ -18,33 +18,33 @@ export const FooterItem = [
         },
     },
     {
-        title: 'Expertise',
+        title: 'Solutions',
         child_1: {
-            title: 'Cloud Integration Solutions',
+            title: 'Smart Dispatching',
             href: '/services',
         },
         child_2: {
-            title: 'Custom Web Development',
+            title: 'Real-Time Tracking',
             href: '/services',
         },
         child_3: {
-            title: 'Data Analytics and Insights',
+            title: 'Automated Billing',
             href: '/services',
         },
     },
     {
-        title: 'Services',
+        title: 'Features',
         child_1: {
-            title: 'Cybersecurity & Compliance',
-            href: '/services',
+            title: 'Route Optimization',
+            href: '/solution',
         },
         child_2: {
-            title: 'AI-Powered Automation',
-            href: '/services',
+            title: 'Driver Mobile App',
+            href: '/solution',
         },
         child_3: {
-            title: 'User Experience Design',
-            href: "/services",
+            title: 'Analytics Dashboard',
+            href: '/solution',
         },
     },
     {

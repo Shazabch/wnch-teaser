@@ -18,13 +18,13 @@ export default function FaqAccordian() {
     };
 
   return (
-    <ComponentTransition className="flex  rounded-3xl pb-20 justify-center mt-10 items-center flex-col">
+    <ComponentTransition className="flex w-full rounded-3xl pb-20 justify-center mt-10 items-center flex-col">
     {Services.map((item, index) => (
-      <div key={index} className="flex  justify-center items-center flex-col mt-10 relative  border-b-[1px] border-neutral-400 pb-5">
+      <div key={index} className="flex w-full justify-center items-center flex-col mt-10 relative border-b-[1px] border-neutral-400 pb-5">
         <button onClick={() => handleClick(index)} className="w-full">
-          <div className={clsx("flex group h-auto  items-center gap-5", { 'cursor-pointer': !openStates[index] })}>
+          <div className={clsx("flex w-full justify-between group h-auto items-center gap-5", { 'cursor-pointer': !openStates[index] })}>
             <h1 className="text-xl text-start font-semibold">{item.title}</h1>
-            <div className="absolute right-0">
+            <div>
               <GoPlus
                 size={50}
                 className={`${openStates[index] ? 'rotate-45' : 'rotate-0'} text-neutral-500 max-md:hidden transition-all duration-300`}

@@ -5,6 +5,7 @@ import Buttons from "./Buttons";
 import { PricingItem } from "@/common/constant/PricingItem";
 import clsx from "clsx";
 import { ButtonSpot } from "./ButtonSpot";
+import Link from "next/link";
 
 export default function PricingCard() {
   return (
@@ -51,7 +52,9 @@ export default function PricingCard() {
             </ul>
           </div>
           <div className="w-full flex justify-center items-center">
-            <ButtonSpot className="w-full" title="Choose Plan" />
+            <Link href="/contact" className="w-full">
+              <ButtonSpot className="w-full" title="Choose Plan" />
+            </Link>
           </div>
         </ComponentTransition>
       ))}

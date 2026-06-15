@@ -11,14 +11,14 @@ const Card = () => {
       <ComponentTransition className="w-full overflow-hidden px-10 py-5 md:basis-[30%] h-[300px] bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
         <WiDayCloudy size={50} />
         <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-          Streamlined Success
+          Intelligent Dispatch
         </h1>
         <h2 className="text-sm text-neutral-800 dark:text-neutral-300">
-          Elevate Your Business with Teaser SaaS!
+          Elevate Your Fleet with WNCH Dispatch Hub!
         </h2>
         <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-3">
-          Unveil the future of efficiency with Teaser SaaS – a cutting-edge
-          solution designed to streamline your operations
+          Unveil the future of efficiency with WNCH – a cutting-edge
+          platform designed to streamline your towing operations
         </p>
       </ComponentTransition>
       <ComponentTransition
@@ -26,12 +26,12 @@ const Card = () => {
         className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="/img1.png"
-          alt="Header Image"
+          src="https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?q=80&w=800"
+          alt="Tow Truck"
           width={400}
           height={400}
           loading="lazy"
-          className="w-full object-cover scale-110"
+          className="w-full h-full object-cover scale-130 -translate-y-40"
         />
       </ComponentTransition>
       <ComponentTransition
@@ -39,12 +39,12 @@ const Card = () => {
         className="w-full h-auto object-cover md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="/img.png"
-          alt="Header Image"
+          src="https://images.unsplash.com/photo-1519003722824-194d4455a60c"
+          alt="Tow Truck Flatbed"
           width={400}
           height={400}
           loading="lazy"
-          className="w-auto h-auto object-cover scale-110"
+          className="w-full h-full object-cover scale-110"
         />
       </ComponentTransition>
       <ComponentTransition
@@ -53,14 +53,14 @@ const Card = () => {
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-          Teaser SaaS
+          WNCH Platform
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-          Your Gateway to Streamlined Excellence
+          Your Gateway to Operational Excellence
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-          Dive into the future of efficient business operations with Teaser
-          SaaS. Our solution is crafted to streamline your SaaS experience
+          Dive into the future of efficient dispatch operations with WNCH
+          Hub. Our solution is crafted to streamline your towing experience
         </p>
       </ComponentTransition>
 
@@ -74,10 +74,10 @@ const Card = () => {
           Unlocking Potential
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-          Teaser SaaS - Redefining Productivity
+          WNCH Hub - Redefining Productivity
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-          Tailored website solutions to meet specific business needs and goals.
+          Tailored dispatch solutions to meet your specific towing business needs and goals.
         </p>
       </ComponentTransition>
 
@@ -90,10 +90,10 @@ const Card = () => {
           Simplify, Optimize, Succeed
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-          Your Gateway to Streamlined Excellence
+          Your Gateway to Fleet Excellence
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-          Simplify your SaaS experience with Teaser, where optimization meets
+          Simplify your dispatch experience with WNCH, where optimization meets
           success
         </p>
       </ComponentTransition>
@@ -103,13 +103,13 @@ const Card = () => {
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Efficiency Redefined
+          Efficiency Redefined
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-        Teaser - Your Strategic Partner!
+          WNCH - Your Strategic Partner!
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-        Teaser SaaS is more than a solution; it&rsquo;s your strategic partner in achieving operational excellence
+          WNCH Dispatch Hub is more than a software; it&rsquo;s your strategic partner in achieving operational excellence
         </p>
       </ComponentTransition>
       <ComponentTransition
@@ -118,13 +118,13 @@ const Card = () => {
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Innovate with Confidence
+          Scale with Confidence
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-        Teaser Unleashes Creativity!
+          WNCH Unleashes Growth!
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-        Teaser SaaS invites you to innovate with confidence. Our solution is a catalyst for creativity
+          WNCH Hub invites you to scale your business with confidence. Our platform is a catalyst for fleet growth
         </p>
       </ComponentTransition>
       <ComponentTransition
@@ -133,13 +133,13 @@ const Card = () => {
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Tailored Solutions for Your Unique Success!
+          Tailored Solutions for Your Fleet!
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-        Teaser Unleashes Creativity!
+          WNCH Adapts to You!
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-        Your success story deserves a tailored solution. Enter Teaser SaaS – a platform customizable to meet your unique business needs.
+          Your towing business deserves a tailored solution. Enter WNCH Hub – a platform customizable to meet your unique operational needs.
         </p>
       </ComponentTransition>
 
@@ -148,12 +148,12 @@ const Card = () => {
         className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="/img.png"
-          alt="Header Image"
+          src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8"
+          alt="Heavy Tow Truck"
           width={400}
           height={400}
           loading="lazy"
-          className="w-full h-auto object-cover scale-110"
+          className="w-full h-full object-cover scale-110"
         />
       </ComponentTransition>
 
@@ -163,13 +163,13 @@ const Card = () => {
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Fast-Track Your Success
+          Fast-Track Your Dispatching
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-         Teaser SaaS Accelerates Your Journey!
+          WNCH Accelerates Your Operations!
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-        Teaser SaaS is your express route to success. With streamlined processes and accelerated functionalities
+          WNCH Hub is your express route to success. With streamlined assignments and accelerated functionalities
         </p>
       </ComponentTransition>
     </div>

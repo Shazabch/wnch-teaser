@@ -2,8 +2,8 @@ import SolutionPage from '@/common/module/Solution/component/SolutionPage'
 import React from 'react'
 
 export const metadata = {
-  title: 'Solution - Teaser',
-  description: 'Solution',
+  title: 'Solution - WNCH Hub',
+  description: 'Solutions and apps for the towing and dispatch industry.',
   
 }
 

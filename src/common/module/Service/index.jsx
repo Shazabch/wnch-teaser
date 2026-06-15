@@ -43,10 +43,10 @@ const Service = () => {
         viewport={{once: true}}
       >
         <h1 className="text-3xl md:text-5xl py-5 text-center dark:bg-gradient-to-r from-white from-50% to-[#8f8f8f] bg-text bg-clip-text  md:w-[50%] text-transparent font-bold">
-          Transform your tech business with tailored services
+          Transform your dispatch operations with tailored solutions
         </h1>
         <p className="text-base md:text-2xl text-neutral-500 dark:text-neutral-300">
-          Websites / Applications / Web3 / Blockchain
+          Towing / Roadside Assistance / Transport / Recovery
         </p>
       </motion.div>
       </div>

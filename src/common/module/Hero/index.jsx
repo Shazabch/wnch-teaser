@@ -5,8 +5,9 @@ import Rails from "@/common/component/element/Rails";
 import React from "react";
 import { motion, useScroll } from "framer-motion";
 import Image from "@/common/component/element/Image";
+import Link from "next/link";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
-import { HeroImage } from "@/common/constant/HeroImage";
+import { HeroImage, AllHeroImages } from "@/common/constant/HeroImage";
 import { Parallax } from "@/common/constant/Parallax";
 import H1 from "@/common/component/element/H1";
 import { ButtonSpot } from "@/common/component/element/ButtonSpot";
@@ -49,29 +50,45 @@ export const tranlateVariant = {
 const Hero = () => {
   const { scrollY } = useScroll();
   const { c, r, ry, rz, scale, t, y } = Parallax(scrollY);
+  const [images, setImages] = React.useState(HeroImage);
+
+  React.useEffect(() => {
+    const shuffled = [...AllHeroImages].sort(() => 0.5 - Math.random());
+    setImages(shuffled.slice(0, 6).map(img => ({ img })));
+  }, []);
 
   return (
     <div className="h-auto md:mb-20 max-w-[1500px] px-5 lg:px-10 mt-20 relative overflow-hidden">
       <div className="flex flex-col justify-center md:top-0 mt-28 lg:mt-36  items-center">
         <div className="flex flex-col items-center justify-center">
           <div className="border-[1px] rounded-full border-[#5515df] py-2 px-5">
-            <h1>Make Your Startup 🚀 </h1>
+            <h1>The #1 Dispatch Platform 🚀 </h1>
           </div>
           <H1
             className=" xl:w-[80%] 2xl:w-[80%] !leading-[0.85em] items-center flex overflow-hidden dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-center text-4xl sm:text-5xl md:text-7xl w-full  font-bold pb-1"
-            title="Welcome to Teaser Streamlining Your SaaS and Startup Solution"
+            title="Revolutionizing Towing & Recovery"
           />
 
           <p className="lg:w-[70%] text-center  lg:text-2xl mt-2 dark:text-neutral-300 text-neutral-700">
-            Elevate your workflow with Teaser, the solution designed for
-            seamless operations. Connect, collaborate, and conquer with ease.
+            Elevate your dispatch workflow with WNCH. The ultimate solution designed for
+            seamless operations, real-time tracking, and instant job dispatching.
           </p>
 
           <motion.div className="flex max-md:flex-col w-full items-center justify-center gap-5 py-5">
-            <ButtonSpot
-              title="Get Started"
-              className="!rounded-md !w-auto !py-2"
-            />
+            <Link href="/customer">
+              <ButtonSpot
+                title="Customer App"
+                className="!rounded-md !w-auto !py-3 !px-8 !bg-[#8DC421] dark:!bg-[#8DC421] !text-black font-bold"
+                noBlend={true}
+                circleClassName="bg-white/40 dark:bg-white/40"
+              />
+            </Link>
+            <Link href="/provider">
+              <ButtonSpot
+                title="Provider App"
+                className="!rounded-md !w-auto !py-3 !px-8 font-bold"
+              />
+            </Link>
           </motion.div>
         </div>
 
@@ -95,7 +112,7 @@ const Hero = () => {
             rotateY: ry,
           }}
         >
-          {HeroImage.map((item, index) => (
+          {images.map((item, index) => (
             <ComponentTransition
               delay={index * 0.1}
               key={index}

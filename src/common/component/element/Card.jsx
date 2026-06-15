@@ -11,8 +11,8 @@ export default function Card({ Content }) {
           key={index}
           className="flex border-[1px] relative group z-[9] dark:border-white border-black hover:lg:border-black overflow-hidden rounded-3xl flex-col items-center text-center p-6"
         >
-          <div className="absolute w-[100px] h-[100px] left-[-20%] z-[-9] group-hover:lg:w-[100%] group-hover:lg:h-[100%] inset-0 rounded-full group-hover:lg:rounded-none translate-y-[50%] transition-all duration-500 bg-[#461cff] group-hover:lg:translate-y-[0%]"></div>
-          <div className="absolute w-[100px] top-0 right-[-10%] h-[100px] z-[-9] group-hover:lg:w-[100%] group-hover:lg:h-[100%]  rounded-full group-hover:lg:rounded-none transition-all duration-500 bg-[#461cff] group-hover:lg:translate-y-[0%]"></div>
+          <div className="absolute w-[100px] h-[100px] left-[-20%] z-[-9] group-hover:lg:w-[100%] group-hover:lg:h-[100%] inset-0 rounded-full group-hover:lg:rounded-none translate-y-[50%] transition-all duration-500 bg-[#1E45D7] group-hover:lg:translate-y-[0%]"></div>
+          <div className="absolute w-[100px] top-0 right-[-10%] h-[100px] z-[-9] group-hover:lg:w-[100%] group-hover:lg:h-[100%]  rounded-full group-hover:lg:rounded-none transition-all duration-500 bg-[#1E45D7] group-hover:lg:translate-y-[0%]"></div>
           {item.icon}
           {item.img && (
             <Image src={item.img} alt={item.title} width={400} heigth={400} />

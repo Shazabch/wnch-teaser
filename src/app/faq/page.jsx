@@ -2,8 +2,8 @@ import Faq from '@/common/module/Faq'
 import React from 'react'
 
 export const metadata = {
-  title: 'Faq & Documentation - Teaser',
-  description: 'Faq & Documentation',
+  title: 'FAQ & Documentation - WNCH Hub',
+  description: 'Knowledge base and frequently asked questions for WNCH Hub.',
   
 }
 

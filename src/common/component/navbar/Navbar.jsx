@@ -36,7 +36,7 @@ const Navbar = () => {
     <motion.div
       className={clsx(
         scroll ? "backdrop-blur-sm" : "",
-        `w-full transition-all duration-300 mx-auto bg-[#ffffffd0] dark:bg-[#000000d0]  max-w-[1500px]  border-b-[1px] border-neutral-300 dark:border-neutral-800 py-5 px-5 2xl:rounded-3xl  lg:px-10 fixed top-0 z-[99]`
+        `w-full transition-all duration-300 mx-auto bg-[#ffffffd0] dark:bg-[#000000d0]  max-w-[1500px]  border-b-[1px] border-neutral-300 dark:border-neutral-800 py-3 px-5 2xl:rounded-3xl  lg:px-10 fixed top-0 z-[99]`
       )}
     >
       <div className="flex flex-row justify-between items-center">
@@ -46,13 +46,7 @@ const Navbar = () => {
             className="group relative w-auto flex justify-start items-start"
           >
             {/* <Logos /> */}
-            <h1
-              className={`${
-                open ? "text-white" : ""
-              }  text-3xl tracking-[-0.10em] font-bold`}
-            >
-              Teaser
-            </h1>
+            <img src="/WNCH.png" alt="WNCH Logo" className="h-10 w-auto scale-[2.5] md:scale-[3] origin-left object-contain" />
           </Link>
         </div>
         <div className="lg:flex hidden justify-center gap-10 items-center w-full">
@@ -83,11 +77,21 @@ const Navbar = () => {
           <NavMobile open={open} handleOpen={handleOpen} close={close} />
         </div>
 
-        <div className="lg:flex hidden w-[35%] items-center justify-end">
+        <div className="lg:flex hidden w-auto items-center justify-end gap-2">
           <div className="px-2">
             <DarkmodeSwitch />
           </div>
-          <ButtonSpot title="Get This Template" />
+          <Link href="/customer" className="whitespace-nowrap shrink-0">
+            <ButtonSpot
+              title="Customer App"
+              className="!bg-[#8DC421] dark:!bg-[#8DC421] !text-black hover:opacity-90 whitespace-nowrap"
+              noBlend={true}
+              circleClassName="bg-white/40 dark:bg-white/40"
+            />
+          </Link>
+          <Link href="/provider" className="whitespace-nowrap shrink-0">
+            <ButtonSpot title="Provider App" className="whitespace-nowrap" />
+          </Link>
         </div>
       </div>
     </motion.div>

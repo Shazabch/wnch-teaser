@@ -3,8 +3,8 @@ import React from 'react'
 
 
 export const metadata = {
-  title: 'Services - Teaser',
-  description: 'Services',
+  title: 'Services - WNCH Hub',
+  description: 'Services provided by WNCH Hub for towing and dispatch.',
   
 }
 

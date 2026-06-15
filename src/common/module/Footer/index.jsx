@@ -5,6 +5,7 @@ import { FaTwitter, FaLinkedin, FaDiscord } from "react-icons/fa";
 import Link from "next/link";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
 import TextAnimated from "../Faq/component/TextAnimated";
+import StoreButtons from "@/common/component/element/StoreButtons";
 
 const Footer = () => {
   return (
@@ -52,19 +53,16 @@ const Footer = () => {
           </ComponentTransition>
         ))}
       </div>
-      <div className="flex justify-center py-20 items-center flex-col ">
-        <div className="gap-5 flex py-5 justify-center items-center w-full">
-          <FaMedium size={30} />
-          <FaTwitter size={30} />
-          <FaLinkedin size={30} />
-          <FaDiscord size={30} />
+      <div className="flex justify-center pb-20 items-center flex-col mt-10 border-t border-neutral-200 dark:border-neutral-800 pt-10">
+        <StoreButtons className="mb-10" />
+        <div className="gap-6 flex mb-6 justify-center items-center w-full text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-300 transition-colors">
+          <FaMedium size={24} className="cursor-pointer hover:text-black dark:hover:text-white transition-colors" />
+          <FaTwitter size={24} className="cursor-pointer hover:text-black dark:hover:text-white transition-colors" />
+          <FaLinkedin size={24} className="cursor-pointer hover:text-black dark:hover:text-white transition-colors" />
+          <FaDiscord size={24} className="cursor-pointer hover:text-black dark:hover:text-white transition-colors" />
         </div>
         <div className="flex flex-col">
-          <h1 className="text-sm">© 2024 Fahlevi. All Rights Reserved.</h1>
-          <h1 className="text-sm">
-            Designed by <span className="font-bold">Fahlevi</span> using{" "}
-            <span className="font-bold">Next Js</span> only.
-          </h1>
+          <h1 className="text-sm text-neutral-500">© {new Date().getFullYear()} WNCH. All Rights Reserved.</h1>
         </div>
       </div>
     </div>

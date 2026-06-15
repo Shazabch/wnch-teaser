@@ -2,9 +2,6 @@ import Rails from "@/common/component/element/Rails";
 import React from "react";
 import CardAbout from "./component/CardAbout";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Feedback from "../Feedback";
-import CardOffer from "@/common/component/element/CardOffer";
-
 const About = () => {
   return (
     <ComponentTransition className="h-auto max-w-[1500px] px-10 xl:px-20 pb-20">
@@ -24,13 +21,10 @@ const About = () => {
       </div>
       <div className="flex justify-center items-center flex-col">
         <p className="text-base md:text-2xl text-neutral-500 md:w-[70%] text-center">
-          Watch your operations optimize as our apps streamline workflows and
-          drives efficiency for your success.
+          Discover how WNCH Hub was built from the ground up to revolutionize the towing and dispatching industry through innovative, cloud-based technology.
         </p>
       </div>
       <CardAbout />
-      <Feedback className='!px-0' />
-      <CardOffer title='Let&rsquo;s Get Started With Us' className="!px-0" />
     </ComponentTransition>
   );
 };

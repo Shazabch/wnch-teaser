@@ -19,8 +19,7 @@ const Blog = () => {
           Our Blog & News
         </h1>
         <p className="text-base md:text-2xl text-neutral-500 dark:text-neutral-300 md:w-[50%] text-center">
-          We share essential insights from the technology sector, AI, and the
-          world of software development.
+          We share essential insights on modern dispatching, towing operations, and fleet management strategies.
         </p>
       </ComponentTransition>
       <BlogList />

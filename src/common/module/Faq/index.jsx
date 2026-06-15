@@ -18,7 +18,7 @@ const Faq = () => {
           FAQ & Documentation
         </h1>
         <p className="text-base md:text-2xl text-neutral-500 dark:text-neutral-300 md:w-[50%] text-center">
-          Teaser name provides customers complete entry to knowledge base API and
+          WNCH Hub provides complete entry to our knowledge base, dispatch API, and
           documentation.
         </p>
       </ComponentTransition>
