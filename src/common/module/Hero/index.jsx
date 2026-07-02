@@ -135,7 +135,7 @@ const Hero = () => {
         {/* ── Left: Text ── */}
         <div className="flex flex-col items-start justify-center lg:w-[45%] z-10">
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
@@ -147,11 +147,11 @@ const Hero = () => {
               className="w-2 h-2 rounded-full bg-[#5515df] inline-block"
             />
             <span className="text-sm md:text-base">The #1 Provider Platform</span>
-          </motion.div>
+          </motion.div> */}
 
           <H1
             className="!leading-[1.1em] items-start flex overflow-hidden dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-left text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl w-full font-bold pb-2"
-            title="Dubai's IT Towing & Recovery Service"
+            title="Towing & Recovery Service"
           />
 
           <motion.p
