@@ -89,15 +89,19 @@ const FloatingBadge = ({
 
 /* ─── main hero ─── */
 const Hero = () => {
-  const [particles] = useState(() =>
-    Array.from({ length: 18 }, (_, i) => ({
-      id: i,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: 2 + Math.random() * 4,
-      delay: Math.random() * 5,
-    }))
-  );
+  const [particles, setParticles] = useState([]);
+
+  useEffect(() => {
+    setParticles(
+      Array.from({ length: 18 }, (_, i) => ({
+        id: i,
+        x: Math.random() * 100,
+        y: Math.random() * 100,
+        size: 2 + Math.random() * 4,
+        delay: Math.random() * 5,
+      }))
+    );
+  }, []);
 
   /* subtle ambient glow that follows cursor on the whole section */
   const glowX = useMotionValue(50);
