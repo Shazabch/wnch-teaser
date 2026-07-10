@@ -73,28 +73,28 @@ export default function CustomerPage() {
     <div className="w-full flex flex-col justify-center items-center overflow-x-hidden">
       {/* Hero Banner - drivu style */}
       <section className="w-full mt-[72px]">
-        <div className="w-full bg-[#8DC421] px-6 md:px-16 xl:px-24 py-8 md:py-10 h-[calc(100vh-72px)] flex flex-col lg:flex-row items-center justify-between gap-6 relative overflow-hidden">
+        <div className="w-full bg-white px-6 md:px-16 xl:px-24 py-8 md:py-10 h-[calc(100vh-72px)] flex flex-col lg:flex-row items-center justify-between gap-6 relative overflow-hidden">
           {/* Decorative circles */}
-          <div className="absolute -top-20 -right-20 w-72 h-72 bg-white/10 rounded-full pointer-events-none" />
-          <div className="absolute bottom-[-60px] left-[40%] w-48 h-48 bg-white/10 rounded-full pointer-events-none" />
+          <div className="absolute -top-20 -right-20 w-72 h-72 bg-[#1B3FAB]/5 rounded-full pointer-events-none" />
+          <div className="absolute bottom-[-60px] left-[40%] w-48 h-48 bg-[#1B3FAB]/5 rounded-full pointer-events-none" />
 
           {/* Left: Text + bullets + badges */}
           <div className="flex flex-col items-start text-left z-10 lg:w-1/2">
-            <div className="inline-block bg-white/20 text-white font-bold text-xs uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">
+            <div className="inline-block bg-[#1B3FAB]/10 text-[#1B3FAB] font-bold text-xs uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">
               Customer App
             </div>
-            <h1 className="text-2xl md:text-4xl xl:text-5xl font-extrabold text-white leading-tight mb-4">
+            <h1 className="text-2xl md:text-4xl xl:text-5xl font-extrabold text-[#1B3FAB] leading-tight mb-4">
               Help is minutes away.<br />Wherever you are.
             </h1>
             <ul className="space-y-2 mb-5">
               {heroBullets.map((b, i) => (
-                <li key={i} className="flex items-center gap-3 text-white text-sm md:text-base font-medium">
-                  <FaCheckCircle className="text-white shrink-0" size={15} />
+                <li key={i} className="flex items-center gap-3 text-[#1B3FAB] text-sm md:text-base font-medium">
+                  <FaCheckCircle className="text-[#1B3FAB] shrink-0" size={15} />
                   {b}
                 </li>
               ))}
             </ul>
-            <p className="text-white/80 text-xs mb-4">Available on iPhone &amp; Android devices</p>
+            <p className="text-[#1B3FAB]/60 text-xs mb-4">Available on iPhone &amp; Android devices</p>
             <div className="flex flex-wrap gap-3">
               <button className="flex items-center gap-2 bg-black text-white px-4 py-2.5 rounded-xl hover:scale-105 transition-transform shadow-lg">
                 <FaApple size={22} />
