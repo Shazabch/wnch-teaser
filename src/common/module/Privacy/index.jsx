@@ -10,7 +10,8 @@ import {
   FiLock, 
   FiUserCheck, 
   FiMail, 
-  FiInfo 
+  FiInfo,
+  FiTrash2
 } from "react-icons/fi";
 
 const Privacy = () => {
@@ -25,13 +26,18 @@ const Privacy = () => {
       content: (
         <div className="space-y-4 text-neutral-600 dark:text-neutral-300 leading-relaxed">
           <p>
-            Welcome to WNCH Hub. We are committed to protecting your personal data and your privacy. This Privacy Policy explains how WNCH ("we," "us," or "our") collects, uses, discloses, and safeguards your information when you use our provider platform, mobile application, and related towing and roadside assistance services (collectively, the "Services").
+            Welcome to WNCH. We are committed to protecting your personal data and your privacy. This Privacy Policy outlines how WNCH (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) collects, uses, discloses, and safeguards your information across both of our applications:
           </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong className="text-neutral-900 dark:text-neutral-100">WNCH Customer App:</strong> Used by motorists seeking roadside assistance, towing, and vehicle support.
+            </li>
+            <li>
+              <strong className="text-neutral-900 dark:text-neutral-100">WNCH Provider App:</strong> Used by towing operators, recovery professionals, and dispatchers to receive and complete assistance jobs.
+            </li>
+          </ul>
           <p>
-            As a partner provider or driver using the WNCH Hub, you play a critical role in delivering towing and roadside assistance to motorists. To coordinate these services safely and efficiently, we process specific data, including real-time location telemetry.
-          </p>
-          <p>
-            By accessing or using the WNCH platform, you consent to the collection and use of your information in accordance with this policy.
+            By using either the WNCH Customer App or the WNCH Provider App (collectively, the &quot;Apps&quot;) and the WNCH platform, you consent to the collection and use of your information in accordance with this policy.
           </p>
         </div>
       )
@@ -42,24 +48,40 @@ const Privacy = () => {
       shortTitle: "Information We Collect",
       icon: <FiFileText className="w-5 h-5 text-[#8dc421]" />,
       content: (
-        <div className="space-y-4 text-neutral-600 dark:text-neutral-300 leading-relaxed">
-          <p>
-            To power our roadside dispatch and smart matching systems, we collect the following categories of information:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>
-              <strong className="text-neutral-900 dark:text-neutral-100">Account & Profile Information:</strong> Name, email address, phone number, company name, towing credentials, driver license information, and insurance documentation.
-            </li>
-            <li>
-              <strong className="text-neutral-900 dark:text-neutral-100">Vehicle & Equipment Data:</strong> Tow truck make, model, license plate, configuration (e.g., flatbed, wheel-lift), and capacity details.
-            </li>
-            <li>
-              <strong className="text-neutral-900 dark:text-neutral-100">Location Telemetry (GPS):</strong> Real-time location data of your dispatch vehicle. This is critical for matching you with nearby jobs, providing route optimization, and keeping stranded motorists updated on your ETA.
-            </li>
-            <li>
-              <strong className="text-neutral-900 dark:text-neutral-100">Communications & Support:</strong> Logs of messages, calls, and support tickets exchanged between you, our dispatch team, or motorists.
-            </li>
-          </ul>
+        <div className="space-y-6 text-neutral-600 dark:text-neutral-300 leading-relaxed">
+          <div>
+            <h3 className="text-lg font-bold text-neutral-900 dark:text-neutral-100 mb-2 border-l-4 border-[#8dc421] pl-3">
+              For WNCH Customer App Users
+            </h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                <strong className="text-neutral-900 dark:text-neutral-100">Profile Details:</strong> Name, phone number, email address, and billing details.
+              </li>
+              <li>
+                <strong className="text-neutral-900 dark:text-neutral-100">Vehicle Information:</strong> Make, model, year, color, license plate, and issue description (e.g. flat tire, dead battery, collision).
+              </li>
+              <li>
+                <strong className="text-neutral-900 dark:text-neutral-100">Location Telemetry:</strong> GPS coordinates of your stranded vehicle to direct rescue drivers, and your requested drop-off destination.
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 className="text-lg font-bold text-neutral-900 dark:text-neutral-100 mb-2 border-l-4 border-[#8dc421] pl-3">
+              For WNCH Provider App Users
+            </h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                <strong className="text-neutral-900 dark:text-neutral-100">Provider Credentials:</strong> Legal name, company details, professional towing licenses, background verification check results, and insurance policies.
+              </li>
+              <li>
+                <strong className="text-neutral-900 dark:text-neutral-100">Vehicle Specs:</strong> Tow truck specifications (e.g., flatbed capacity, flatbed or hook-and-chain configuration), license plates, and dispatch status.
+              </li>
+              <li>
+                <strong className="text-neutral-900 dark:text-neutral-100">Real-Time GPS Tracking:</strong> Continuous location tracking when you are set to &quot;Online&quot; or performing an active dispatch. This is required for calculating exact ETAs and routing.
+              </li>
+            </ul>
+          </div>
         </div>
       )
     },
@@ -71,24 +93,24 @@ const Privacy = () => {
       content: (
         <div className="space-y-4 text-neutral-600 dark:text-neutral-300 leading-relaxed">
           <p>
-            We process your information to maintain a reliable, high-performance towing network. Specifically, we use your data to:
+            We process information to maintain the speed and reliability of our roadside dispatch network:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
             <div className="p-4 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800">
-              <h4 className="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">Smart Dispatch</h4>
-              <p className="text-sm">Calculating arrival times and dispatching jobs to the closest available provider based on vehicle type and telemetry.</p>
+              <h4 className="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">Rescue Matching</h4>
+              <p className="text-sm">Matching stranded customers with the closest towing vehicle capable of handling their specific vehicle type.</p>
             </div>
             <div className="p-4 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800">
-              <h4 className="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">Automated Billing</h4>
-              <p className="text-sm">Verifying completed routes, generating invoices, and facilitating payments directly to your provider account.</p>
+              <h4 className="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">Automated Billing & Payouts</h4>
+              <p className="text-sm">Calculating fair pricing, processing customer payments, and issuing provider payouts instantly upon job completion.</p>
             </div>
             <div className="p-4 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800">
-              <h4 className="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">Route Optimization</h4>
-              <p className="text-sm">Providing real-time route instructions to bypass traffic, reducing response times for stranded motorists.</p>
+              <h4 className="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">ETA Tracking & Navigation</h4>
+              <p className="text-sm">Providing real-time arrival maps to customers and turn-by-turn route optimizations to dispatch operators.</p>
             </div>
             <div className="p-4 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800">
-              <h4 className="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">Safety & Quality</h4>
-              <p className="text-sm">Monitoring ETA accuracy, tracking customer feedback, and conducting incident investigations.</p>
+              <h4 className="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">Quality & Security</h4>
+              <p className="text-sm">Monitoring service completion records, handling support queries, and reviewing feedback ratings.</p>
             </div>
           </div>
         </div>
@@ -102,49 +124,105 @@ const Privacy = () => {
       content: (
         <div className="space-y-4 text-neutral-600 dark:text-neutral-300 leading-relaxed">
           <p>
-            Your information is shared strictly to facilitate towing operations and ensure service reliability:
+            Information sharing is restricted to what is necessary to perform roadside assistance:
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              <strong className="text-neutral-900 dark:text-neutral-100">With Motorists:</strong> When dispatched to an active roadside incident, we share your first name, vehicle details, real-time map location, and contact details with the stranded motorist so they can track your arrival.
+              <strong className="text-neutral-900 dark:text-neutral-100">Customer & Provider Coordination:</strong> While a rescue job is active, we display the provider&apos;s real-time map location, name, and truck details on the WNCH Customer App. Conversely, the stranded customer&apos;s coordinates and contact information are shared with the provider.
             </li>
             <li>
-              <strong className="text-neutral-900 dark:text-neutral-100">With Service Providers:</strong> Third-party systems such as maps/navigation APIs, billing platforms, SMS services, and server hosting providers.
+              <strong className="text-neutral-900 dark:text-neutral-100">With Service Vendors:</strong> Cloud hosts, map/navigation API providers, payment processors, and transactional SMS systems.
             </li>
             <li>
-              <strong className="text-neutral-900 dark:text-neutral-100">For Legal Compliance:</strong> If requested by police, highway patrols, or law enforcement during emergency incidents, or to comply with applicable regulatory frameworks.
+              <strong className="text-neutral-900 dark:text-neutral-100">Legal & Safety Actions:</strong> Compliance with official law enforcement audits, road emergency regulations, or during highway incident investigations.
             </li>
           </ul>
         </div>
       )
     },
     {
+      id: "account-deletion",
+      title: "5. Account Deletion & Data Retention",
+      shortTitle: "Account Deletion",
+      icon: <FiTrash2 className="w-5 h-5 text-[#8dc421]" />,
+      content: (
+        <div className="space-y-5 text-neutral-600 dark:text-neutral-300 leading-relaxed">
+          <p>
+            We believe in giving you complete control over your data. You can request to delete your account and associated records at any time using either of the following methods:
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+            <div className="p-5 rounded-2xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800">
+              <h4 className="font-bold text-neutral-900 dark:text-neutral-100 mb-2 flex items-center gap-2">
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#8dc421]/20 text-[#8dc421] text-xs">1</span>
+                Via the Apps
+              </h4>
+              <p className="text-sm mb-3">
+                You can delete your account directly from your profile settings within either application:
+              </p>
+              <ul className="list-disc pl-5 text-xs space-y-1 text-neutral-500 dark:text-neutral-400">
+                <li><strong className="dark:text-neutral-300">WNCH Customer App:</strong> Open app &rarr; go to <strong className="dark:text-neutral-300">Profile Settings</strong> &rarr; tap <strong className="text-red-500">Delete Profile</strong>.</li>
+                <li><strong className="dark:text-neutral-300">WNCH Provider App:</strong> Open app &rarr; go to <strong className="dark:text-neutral-300">Driver Account Settings</strong> &rarr; tap <strong className="text-red-500">Delete Account</strong>.</li>
+              </ul>
+            </div>
+            
+            <div className="p-5 rounded-2xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800">
+              <h4 className="font-bold text-neutral-900 dark:text-neutral-100 mb-2 flex items-center gap-2">
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#8dc421]/20 text-[#8dc421] text-xs">2</span>
+                Via Email Request
+              </h4>
+              <p className="text-sm mb-3">
+                Send an email request from your registered WNCH email address to:
+              </p>
+              <a 
+                href="mailto:delete@wnch.com?subject=WNCH Account Deletion Request" 
+                className="inline-block text-[#8dc421] font-semibold text-sm hover:underline mb-2"
+              >
+                delete@wnch.com
+              </a>
+              <p className="text-xs text-neutral-500 dark:text-neutral-400">
+                Or email our general helpdesk at <strong className="dark:text-neutral-300">support@wnch.com</strong>. Please use the subject line &quot;WNCH Account Deletion Request&quot; for expedited processing.
+              </p>
+            </div>
+          </div>
+
+          <div className="p-5 rounded-2xl bg-red-500/5 border border-red-500/10 mt-4">
+            <h4 className="font-semibold text-neutral-900 dark:text-neutral-100 mb-2 text-sm">
+              What happens when you request deletion?
+            </h4>
+            <ul className="list-disc pl-5 text-sm space-y-2 text-neutral-500 dark:text-neutral-400">
+              <li>Your profile is deactivated immediately and you are logged out of the Apps.</li>
+              <li>Your personal identifiers, saved vehicles, and GPS logs are permanently deleted or anonymized within <strong className="text-neutral-800 dark:text-neutral-200">30 days</strong>.</li>
+              <li>We only retain records necessary to satisfy compliance, tax, or legal/billing obligations (e.g. transaction history, accounting logs) as required by law.</li>
+            </ul>
+          </div>
+        </div>
+      )
+    },
+    {
       id: "data-security",
-      title: "5. Data Security & Storage",
+      title: "6. Data Security & Storage",
       shortTitle: "Security & Storage",
       icon: <FiLock className="w-5 h-5 text-[#8dc421]" />,
       content: (
         <div className="space-y-4 text-neutral-600 dark:text-neutral-300 leading-relaxed">
           <p>
-            We implement advanced technical and organizational measures to safeguard your credentials and location telemetry data:
+            We implement administrative, technical, and physical security measures to safeguard your credentials and location telemetry data:
           </p>
           <div className="p-5 rounded-2xl bg-[#8dc421]/10 border border-[#8dc421]/20 my-4">
             <h4 className="flex items-center gap-2 font-bold text-neutral-900 dark:text-neutral-100 mb-2">
               <FiShield className="text-[#8dc421]" /> Location Privacy Protection
             </h4>
             <p className="text-sm">
-              Real-time GPS tracking is only active while your driver status is set to &quot;Active/Online&quot; or when you are actively assigned to a dispatch job. Tracking is suspended immediately when you go &quot;Offline&quot; or log out.
+              Real-time GPS tracking is only active while your status is set to &quot;Active/Online&quot; or when you are actively assigned to a dispatch job. Tracking is suspended immediately when you go &quot;Offline&quot; or log out.
             </p>
           </div>
-          <p>
-            We retain account documentation for as long as your provider account remains active, and for statutory periods necessary to satisfy tax, legal, and billing obligations.
-          </p>
         </div>
       )
     },
     {
       id: "your-rights",
-      title: "6. Your Rights & Choices",
+      title: "7. Your Rights & Choices",
       shortTitle: "Your Rights",
       icon: <FiUserCheck className="w-5 h-5 text-[#8dc421]" />,
       content: (
@@ -168,7 +246,7 @@ const Privacy = () => {
     },
     {
       id: "contact-us",
-      title: "7. Contact Us",
+      title: "8. Contact Us",
       shortTitle: "Contact Support",
       icon: <FiMail className="w-5 h-5 text-[#8dc421]" />,
       content: (
@@ -254,7 +332,7 @@ const Privacy = () => {
             Privacy Policy
           </h1>
           <p className="text-base md:text-xl text-neutral-500 dark:text-neutral-400 mt-4 text-center max-w-2xl leading-relaxed">
-            Learn how we manage, protect, and respect your personal information and real-time location data on the WNCH Provider Hub.
+            Covers both WNCH Customer App and WNCH Provider App. Learn how we manage, protect, and delete your accounts and data.
           </p>
           <span className="text-xs text-neutral-400 mt-6 font-medium tracking-wide uppercase">
             Last Updated: July 17, 2026
