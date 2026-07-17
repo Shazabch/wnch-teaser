@@ -63,8 +63,13 @@ const Footer = () => {
           <FaLinkedin size={24} className="cursor-pointer hover:text-black dark:hover:text-white transition-colors" />
           <FaDiscord size={24} className="cursor-pointer hover:text-black dark:hover:text-white transition-colors" />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center gap-2">
           <h1 className="text-sm text-neutral-500">© {new Date().getFullYear()} WNCH. All Rights Reserved.</h1>
+          <div className="flex gap-4 text-xs text-neutral-500 mt-2">
+            <Link href="/privacy" className="hover:text-[#8dc421] dark:hover:text-[#8dc421] transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </div>
     </div>
