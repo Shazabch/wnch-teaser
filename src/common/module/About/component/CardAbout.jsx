@@ -4,6 +4,7 @@ import { TbDeviceVisionPro } from "react-icons/tb";
 import { FaBullseye } from "react-icons/fa6";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
+import { WNCH_APP } from "@/common/constant/AppLinks";
 import OurTeam from "./OurTeam";
 import TheChallenge from "./TheChallenge";
 import OurStory from "./OurStory";
@@ -24,20 +25,20 @@ const CardAbout = () => {
           />
         </div>
         <div className="flex flex-wrap gap-4 mt-2 w-full justify-center md:justify-start">
-          <button className="flex items-center gap-3 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-5 py-3 rounded-xl hover:scale-105 transition-transform shadow-lg">
+          <a href={WNCH_APP.appStore} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-5 py-3 rounded-xl hover:scale-105 transition-transform shadow-lg">
             <FaApple size={28} />
             <div className="flex flex-col items-start leading-none">
               <span className="text-[10px] uppercase">Download on the</span>
               <span className="text-sm font-bold">App Store</span>
             </div>
-          </button>
-          <button className="flex items-center gap-3 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-5 py-3 rounded-xl hover:scale-105 transition-transform shadow-lg">
+          </a>
+          <a href={WNCH_APP.playStore} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-5 py-3 rounded-xl hover:scale-105 transition-transform shadow-lg">
             <FaGooglePlay size={24} />
             <div className="flex flex-col items-start leading-none">
               <span className="text-[10px] uppercase">GET IT ON</span>
               <span className="text-sm font-bold">Google Play</span>
             </div>
-          </button>
+          </a>
         </div>
         <div className="mt-5 py-5 gap-5 h-full ">
           <div className="w-full px-10 py-10 h-full bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">

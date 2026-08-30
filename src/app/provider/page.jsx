@@ -6,6 +6,7 @@ import Rails from "@/common/component/element/Rails";
 import StoreButtons from "@/common/component/element/StoreButtons";
 import { AppScreenshotSlider } from "@/common/component/element/AppScreenshotSlider";
 import { FaUserPlus, FaFileSignature, FaShieldAlt, FaRocket, FaCheckCircle, FaApple, FaGooglePlay } from "react-icons/fa";
+import { WNCH_DRIVER_APP } from "@/common/constant/AppLinks";
 
 export default function ProviderPage() {
   const steps = [
@@ -68,20 +69,20 @@ export default function ProviderPage() {
             </ul>
             <p className="text-white/80 text-xs mb-4">Available on iPhone &amp; Android devices</p>
             <div className="flex flex-wrap gap-3">
-              <button className="flex items-center gap-2 bg-black text-white px-4 py-2.5 rounded-xl hover:scale-105 transition-transform shadow-lg">
+              <a href={WNCH_DRIVER_APP.appStore} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-black text-white px-4 py-2.5 rounded-xl hover:scale-105 transition-transform shadow-lg">
                 <FaApple size={22} />
                 <div className="flex flex-col items-start leading-none">
                   <span className="text-[9px] uppercase">Download on the</span>
                   <span className="text-xs font-bold">App Store</span>
                 </div>
-              </button>
-              <button className="flex items-center gap-2 bg-black text-white px-4 py-2.5 rounded-xl hover:scale-105 transition-transform shadow-lg">
+              </a>
+              <a href={WNCH_DRIVER_APP.playStore} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-black text-white px-4 py-2.5 rounded-xl hover:scale-105 transition-transform shadow-lg">
                 <FaGooglePlay size={19} />
                 <div className="flex flex-col items-start leading-none">
                   <span className="text-[9px] uppercase">GET IT ON</span>
                   <span className="text-xs font-bold">Google Play</span>
                 </div>
-              </button>
+              </a>
             </div>
           </div>
 
