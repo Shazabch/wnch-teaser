@@ -9,7 +9,7 @@ export default function CardOffer({title, className = ''}) {
     <div className={clsx(className,`px-2 py-20 relative`)}>
       <div className="w-full px-5 relative overflow-hidden flex-col rounded-3xl flex justify-center items-center bg-neutral-300/50 dark:bg-neutral-800/50 py-40">
         <Image
-          src="https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=1000"
+          src="/Website Images/Home/Ready to optimize your fleet.png"
           alt="image"
           width={400}
           height={400}

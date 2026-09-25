@@ -16,7 +16,7 @@ const CardAbout = () => {
       <ComponentTransition delay={0.1} className="w-full h-[20%]  md:basis-[60%] overflow-hidden rounded-3xl">
         <div className="w-full rounded-3xl overflow-hidden">
           <Image
-            src="https://166recovery.com/uploads/services/4091745953812IMG-20250218-WA0076.jpg"
+            src="/Website Images/About/Our Mission.png"
             alt="Tow Truck Fleet"
             width={800}
             height={450}
@@ -65,7 +65,7 @@ const CardAbout = () => {
         <div className="w-full overflow-hidden h-full mt-10  bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
           <div className="w-full h-full rounded-3xl overflow-hidden">
             <Image
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-yhXK2tDuF_fnpYtec1MduGB0VugBK22MEO-X_E-z7UtiT6dlDXb-U9E&s=10"
+              src="/Website Images/About/Our Vision.png"
               alt="Provider Technology"
               width={400}
               height={400}

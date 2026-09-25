@@ -38,7 +38,7 @@ export default function ServicePage() {
           className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="/maps.png"
+            src="/Website Images/Services/Smart Routing & GPS.png"
             alt="Smart Routing & GPS Image"
             width={800}
             height={400}
@@ -66,7 +66,7 @@ export default function ServicePage() {
           className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="/automatedbilling.png"
+            src="/Website Images/Services/Automated Billing.png"
             alt="Automated Billing Image"
             width={400}
             height={400}
@@ -96,7 +96,7 @@ export default function ServicePage() {
           className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="https://images.unsplash.com/photo-1555421689-d68471e189f2?w=600&auto=format&fit=crop&q=60"
+            src="/Website Images/Services/Analytics & Reporting.png"
             alt="Analytics & Reporting Image"
             width={800}
             height={400}
@@ -123,7 +123,7 @@ export default function ServicePage() {
           className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&auto=format&fit=crop&q=60"
+            src="/Website Images/Services/247 Customer Support.png"
             alt="Header Image"
             width={400}
             height={400}
@@ -204,7 +204,7 @@ export default function ServicePage() {
           className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2021/10/12100525/car-recovery-service-dubai-body-a-121020210300-1024x640.jpg"
+            src="/Website Images/Services/Multi-Location Support.png"
             alt="Multi-location"
             width={400}
             height={400}

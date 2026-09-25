@@ -7,7 +7,7 @@ export default function OurStory() {
     <ComponentTransition delay={0.2} className="w-full py-16 flex flex-col-reverse md:flex-row gap-10 items-center justify-between border-t-[1px] border-neutral-300 dark:border-neutral-800">
       <div className="md:basis-[45%] w-full h-[400px] overflow-hidden rounded-3xl">
         <Image
-          src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop"
+          src="/Website Images/About/Our Story & Solution.png"
           alt="Modern Provider Dashboard"
           width={600}
           height={400}

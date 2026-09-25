@@ -13,7 +13,7 @@ export default function TheChallenge() {
       </div>
       <div className="md:basis-[45%] w-full h-[400px] overflow-hidden rounded-3xl">
         <Image
-          src="https://javedcarrecoverydubai.com/wp-content/uploads/2026/05/Towing-service-dubai-1024x572.webp"
+          src="/Website Images/About/The Challenge We Saw.png"
           alt="Traffic Jam Chaos"
           width={600}
           height={400}

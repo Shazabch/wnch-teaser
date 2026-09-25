@@ -15,7 +15,7 @@ const CardFaq = () => {
       <ComponentTransition className="border-[1px] border-neutral-600 rounded-3xl max-md:flex-col flex">
         <div className="w-full h-auto md:h-[400px] md:basis-[50%] overflow-hidden  max-md:rounded-t-3xl  lg:rounded-tl-3xl lg:rounded-bl-3xl ">
           <Image
-            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=800"
+            src="/Website Images/Home/247 Priority Support.png"
             alt="Customer Support"
             width={800}
             height={400}

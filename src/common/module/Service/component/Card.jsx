@@ -26,12 +26,12 @@ const Card = () => {
         className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?q=80&w=800"
+          src="/Website Images/Home/Home 1.png"
           alt="Tow Truck"
           width={400}
           height={400}
           loading="lazy"
-          className="w-full h-full object-cover scale-130 -translate-y-40"
+          className="w-full h-full object-cover scale-110"
         />
       </ComponentTransition>
       <ComponentTransition
@@ -39,7 +39,7 @@ const Card = () => {
         className="w-full h-auto object-cover md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="https://images.unsplash.com/photo-1673187139211-1e7ec3dd60ec?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG93aW5nJTIwY2FyfGVufDB8fDB8fHww"
+          src="/Website Images/Home/2.png"
           alt="Tow Truck Flatbed"
           width={400}
           height={400}
@@ -148,12 +148,12 @@ const Card = () => {
         className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="https://images.unsplash.com/photo-1611083203153-1f0f49fcf093?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRvdyUyMHRydWNrZXN8ZW58MHx8MHx8fDA%3D"
+          src="/Website Images/Home/3.png"
           alt="WNCH Delivery Truck"
           width={400}
           height={400}
           loading="lazy"
-          className="w-full h-full object-cover translate-y-[-35%]"
+          className="w-full h-full object-cover object-top"
         />
       </ComponentTransition>
 

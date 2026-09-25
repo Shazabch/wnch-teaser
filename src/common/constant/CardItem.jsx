@@ -34,16 +34,17 @@ export const CardItem = [
 ]
 export const SolutionAllItem = [
     {
-        img: 'https://images.unsplash.com/photo-1781606989068-50d248c5b22b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIxfHx0d28lMjBtb2JpbGVzfGVufDB8fDB8fHww',
+        img: '/Website Images/Solution/Smart Provider Matching.webp',
         title: "Smart Provider Matching",
         content: "Automate job assignments based on driver location, equipment type, and traffic data. Reduce deadhead miles and get the right truck on scene faster."
     },
     {
-        img: 'https://images.unsplash.com/photo-1548345680-f5475ea5df84?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3BzJTIwdHJhY2tpbmd8ZW58MHx8MHx8fDA%3D', title: "GPS Fleet Tracking",
+        img: '/Website Images/Solution/GPS Fleet Tracking.webp',
+        title: "GPS Fleet Tracking",
         content: "Monitor every truck's location, speed, and heading on a live map. Create historical trails to verify routes and resolve disputes."
     },
     {
-        img: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800',
+        img: '/Website Images/Solution/Digital Invoicing.webp',
         title: "Digital Invoicing",
         content: "Generate branded invoices on job completion, accept payments on-site or via SMS, and sync directly with QuickBooks and Xero."
     },
@@ -53,32 +54,32 @@ export const SolutionAllItem = [
         content: "Seamlessly connect with Agero, AAA, Geico, and more via API. Auto-pull call details and push status updates with a single click."
     },
     {
-        img: 'https://www.towingnearme.ae/_next/image?url=%2Fimages%2FIMG-20251017-WA0011.jpg&w=3840&q=75',
+        img: '/Website Images/Solution/Impound Management.webp',
         title: "Impound Management",
         content: "Track every vehicle from gate entry to release. Auto-calculate storage fees, generate certified letters, and stay fully compliant."
     },
     {
-        img: '/driverapp.png',
+        img: '/Website Images/Solution/Driver Mobile App.webp',
         title: "Driver Mobile App",
         content: "Turn-by-turn navigation, digital job tickets, photo capture, and e-signatures. Works offline and syncs when back in range."
     },
     {
-        img: 'https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=800',
+        img: '/Website Images/Solution/Commission Tracking.webp',
         title: "Commission Tracking",
         content: "Support flat rate, percentage, hourly, or tiered commission structures. Auto-track earnings and generate payroll reports."
     },
     {
-        img: 'https://images.unsplash.com/photo-1486006920555-c77dcf18193c?q=80&w=800',
+        img: '/Website Images/Solution/Maintenance & Fuel.webp',
         title: "Maintenance & Fuel",
         content: "Automated reminders for routine services, fuel tracking, and repair cost monitoring to keep your fleet road-ready."
     },
     {
-        img: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800',
+        img: '/Website Images/Solution/Customer Notifications.webp',
         title: "Customer Notifications",
         content: "Auto-send SMS with a live tracking link when a driver is assigned. Customers see the truck approaching in real-time."
     },
     {
-        img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800',
+        img: '/Website Images/Solution/Advanced Reporting.webp',
         title: "Advanced Reporting",
         content: "Filter reports by date, driver, account, or truck. Export presentation-ready graphs or CSV files to drive data-backed decisions."
     },
