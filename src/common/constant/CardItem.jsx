@@ -2,32 +2,32 @@
 
 export const CardItem = [
     {
-        img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800',
+        img: '/Website Images/Home 2/Autimated Provider matching.webp',
         title: "Automated Provider Matching",
         content: "Discover a world of effortless provider matching with WNCH Hub. Our solution streamlines your assigning processes."
     },
     {
-        img: '/mainmap.png',
+        img: '/Website Images/Home 2/Optimised Routing.webp',
         title: "Optimized Routing",
         content: "Optimize your routes with WNCH Hub. Experience a powerhouse of features that elevate driver efficiency and effectiveness."
     },
     {
-        img: 'https://images.unsplash.com/photo-1579616043939-95d87a6e8512?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHJhY2tpbmd8ZW58MHx8MHx8fDA%3D',
+        img: '/Website Images/Home 2/247 Fleet Tracking.webp',
         title: "24/7 Fleet Tracking",
         content: "Embrace unparalleled visibility with WNCH's live fleet tracking. Stay connected whether in the office or on the go."
     },
     {
-        img: '/driverapp.png',
+        img: '/Website Images/Home 2/Driver Mobile App.webp',
         title: "Driver Mobile App",
         content: "Empower your drivers with the WNCH mobile app, where user-centric design meets powerful functional operations."
     },
     {
-        img: 'https://images.unsplash.com/photo-1609701964451-659136e5d30c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHRvd2luZ3xlbnwwfHwwfHx8MA%3D%3D',
+        img: '/Website Images/Home 2/Tailored to your fleet.webp',
         title: "Tailored to Your Fleet",
         content: "Your success, your way. WNCH Hub is fully customizable to meet your unique towing business needs and workflows."
     },
     {
-        img: 'https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFuYWx5dGljc3xlbnwwfHwwfHx8MA%3D%3D',
+        img: '/Website Images/Home 2/Performance analytic.webp',
         title: "Performance Analytics",
         content: "Unlock the power of data-driven insights with WNCH's analytical reports for your towing business."
     }

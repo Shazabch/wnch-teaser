@@ -1,15 +1,21 @@
 import Image from "@/common/component/element/Image";
 import React from "react";
-import { WiDayCloudy } from "react-icons/wi";
-import { FaCode } from "react-icons/fa";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
 
 const Card = () => {
   return (
     <div className="py-10 flex gap-10 justify-center flex-row flex-wrap relative">
       <div className="absolute  z-[-9] glowbg w-[100%] md:w-[500px] h-[400px]  left-0 "></div>
+
+      {/* Intelligent Provider */}
       <ComponentTransition className="w-full overflow-hidden px-10 py-5 md:basis-[30%] h-[300px] bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
-        <WiDayCloudy size={50} />
+        <Image
+          src="/Website Images/Home Icons/Intelligent Provider.png"
+          alt="Intelligent Provider"
+          width={60}
+          height={60}
+          className="w-[60px] h-[60px] object-contain"
+        />
         <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
           Intelligent Provider
         </h1>
@@ -21,6 +27,7 @@ const Card = () => {
           platform designed to streamline your towing operations
         </p>
       </ComponentTransition>
+
       <ComponentTransition
         delay={0.2}
         className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
@@ -34,6 +41,7 @@ const Card = () => {
           className="w-full h-full object-cover scale-110"
         />
       </ComponentTransition>
+
       <ComponentTransition
         delay={0.1}
         className="w-full h-auto object-cover md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
@@ -47,11 +55,19 @@ const Card = () => {
           className="w-full h-full object-cover scale-110"
         />
       </ComponentTransition>
+
+      {/* WNCH Platform */}
       <ComponentTransition
         delay={0.1}
         className="w-full h-[250px]  px-10 py-5 md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
-        <FaCode size={40} />
+        <Image
+          src="/Website Images/Home Icons/WNCH Platform.png"
+          alt="WNCH Platform"
+          width={50}
+          height={50}
+          className="w-[50px] h-[50px] object-contain"
+        />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
           WNCH Platform
         </h1>
@@ -64,12 +80,19 @@ const Card = () => {
         </p>
       </ComponentTransition>
 
+      {/* Unlocking Potential */}
       <ComponentTransition
         delay={0.1}
         className="w-full h-[250px]  px-10 py-5 md:basis-[30%] relative overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <div className="absolute  glowbg inset-0  left-0 "></div>
-        <FaCode size={40} />
+        <Image
+          src="/Website Images/Home Icons/Unlocking Potential.png"
+          alt="Unlocking Potential"
+          width={50}
+          height={50}
+          className="relative w-[50px] h-[50px] object-contain"
+        />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
           Unlocking Potential
         </h1>
@@ -81,11 +104,18 @@ const Card = () => {
         </p>
       </ComponentTransition>
 
+      {/* Simplify, Optimize, Succeed */}
       <ComponentTransition
         delay={0.1}
         className="w-full h-[250px]  px-10 py-5 md:basis-[30%] overflow-hidden dark:bg-[#0a0a0a] border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
-        <FaCode size={40} />
+        <Image
+          src="/Website Images/Home Icons/Simplify, Optimize, Succeed.png"
+          alt="Simplify, Optimize, Succeed"
+          width={50}
+          height={50}
+          className="w-[50px] h-[50px] object-contain"
+        />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
           Simplify, Optimize, Succeed
         </h1>
@@ -97,11 +127,19 @@ const Card = () => {
           success
         </p>
       </ComponentTransition>
+
+      {/* Efficiency Redefined */}
       <ComponentTransition
         delay={0.1}
         className="w-full h-[250px]  px-10 py-5 md:basis-[30%] overflow-hidden dark:bg-[#0a0a0a] border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
-        <FaCode size={40} />
+        <Image
+          src="/Website Images/Home Icons/Efficiency Redefined.png"
+          alt="Efficiency Redefined"
+          width={50}
+          height={50}
+          className="w-[50px] h-[50px] object-contain"
+        />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
           Efficiency Redefined
         </h1>
@@ -112,11 +150,19 @@ const Card = () => {
           WNCH Provider Hub is more than a software; it&rsquo;s your strategic partner in achieving operational excellence
         </p>
       </ComponentTransition>
+
+      {/* Scale with Confidence */}
       <ComponentTransition
         delay={0.1}
         className="w-full h-[250px]  px-10 py-5 md:basis-[30%] overflow-hidden dark:bg-[#0a0a0a] border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
-        <FaCode size={40} />
+        <Image
+          src="/Website Images/Home Icons/Scale with Confidence.png"
+          alt="Scale with Confidence"
+          width={50}
+          height={50}
+          className="w-[50px] h-[50px] object-contain"
+        />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
           Scale with Confidence
         </h1>
@@ -127,11 +173,19 @@ const Card = () => {
           WNCH Hub invites you to scale your business with confidence. Our platform is a catalyst for fleet growth
         </p>
       </ComponentTransition>
+
+      {/* Tailored Solutions for Your Fleet! */}
       <ComponentTransition
         delay={0.1}
         className="w-full h-[250px]  px-10 py-5 md:basis-[30%] overflow-hidden dark:bg-[#0a0a0a] border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
-        <FaCode size={40} />
+        <Image
+          src="/Website Images/Home Icons/Tailored Solutions for Your Fleet!.png"
+          alt="Tailored Solutions for Your Fleet"
+          width={50}
+          height={50}
+          className="w-[50px] h-[50px] object-contain"
+        />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
           Tailored Solutions for Your Fleet!
         </h1>
@@ -157,11 +211,18 @@ const Card = () => {
         />
       </ComponentTransition>
 
+      {/* Fast-Track Provider Assistance */}
       <ComponentTransition
         delay={0.1}
         className="w-full h-[250px]  px-10 py-5 md:basis-[30%] overflow-hidden dark:bg-[#0a0a0a] border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
-        <FaCode size={40} />
+        <Image
+          src="/Website Images/Home Icons/Fast-Track Provider Assistance.png"
+          alt="Fast-Track Provider Assistance"
+          width={50}
+          height={50}
+          className="w-[50px] h-[50px] object-contain"
+        />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
           Fast-Track Provider Assistance
         </h1>

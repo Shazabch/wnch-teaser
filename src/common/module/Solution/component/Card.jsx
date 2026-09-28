@@ -13,15 +13,15 @@ const CardSolution = () => {
           key={index}
           delay={index * 0.1}
         >
-          <div className="w-full h-[250px] overflow-hidden">
-          <Image
-            src={item.img}
-            alt="Header Image"
-            width={400}
-            height={400}
-            loading="lazy"
-            className="w-full h-full group-hover:scale-150 transition-all duration-300 object-cover object-center scale-125"
-          />
+          <div className="w-full aspect-[21/9] overflow-hidden">
+            <Image
+              src={item.img}
+              alt={item.title}
+              width={1200}
+              height={514}
+              loading="lazy"
+              className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-cover object-center"
+            />
           </div>
 
           <div className="px-5 py-5">
