@@ -28,11 +28,11 @@ export default function SolutionPage() {
           >
             <Image
               src={item.img}
-              alt="Header Image"
-              width={400}
-              height={400}
+              alt={item.title}
+              width={800}
+              height={450}
               loading="lazy"
-              className="w-full h-[250px] object-cover scale-110"
+              className="w-full aspect-video object-cover object-center"
             />
             <div className="px-5 py-5">
               <h1 className="md:text-3xl text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">

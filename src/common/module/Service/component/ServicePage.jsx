@@ -41,9 +41,9 @@ export default function ServicePage() {
             src="/Website Images/Services/Smart Routing & GPS.png"
             alt="Smart Routing & GPS Image"
             width={800}
-            height={400}
+            height={300}
             loading="lazy"
-            className="w-full h-full object-cover translate-y-[-13%]"
+            className="w-full h-full object-cover object-center"
           />
         </ComponentTransition>
         <ComponentTransition
@@ -69,9 +69,9 @@ export default function ServicePage() {
             src="/Website Images/Services/Automated Billing.png"
             alt="Automated Billing Image"
             width={400}
-            height={400}
+            height={250}
             loading="lazy"
-            className="w-full h-[280px] object-cover scale-110"
+            className="w-full h-full object-cover object-center"
           />
         </ComponentTransition>
 
